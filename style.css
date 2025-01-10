@@ -147,3 +147,136 @@
     line-height: 24px;
     align-self: stretch;
 }
+
+.b3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.b3 .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.b3 h1 {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.b3 .text {
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    align-self: stretch;
+}
+
+.b3 .box-flex1 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.b3 .icon {
+    width: 64px;
+    height: 64px;
+}
+
+.c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.t1 {
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.v1 {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+
+.v2 {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+}
+
+.v3 {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+}
+
+.v1 button {
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.v2 button {
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.v3 button {
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin-top: 24px;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.9;
+}
