@@ -24,7 +24,7 @@
     line-height: normal;
 }
 
-.head nav .btn {
+.btn {
     display: flex;
     padding: 15px 30px;
     justify-content: center;
@@ -39,8 +39,51 @@
     line-height: normal;
 }
 
-.head nav .btn:hover {
+.btn:hover {
     background: rgb(0, 106, 80);
     color: white;
     border: none;
+}
+
+.b1 {
+    display: flex;
+    padding: 60px 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    background: #C6E4D6;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.b1-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.b2-banner {
+    width: 474.028px;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.b1-banner p {
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.b1-banner h3 {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 467;
 }
