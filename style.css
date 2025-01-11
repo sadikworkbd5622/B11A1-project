@@ -397,7 +397,7 @@ button:hover {
     background: #FFF;
 }
 
-.news>img {
+.news img {
     border-radius: 18px;
 }
 
@@ -420,4 +420,89 @@ button:hover {
     margin: 10px 0;
     display: flex;
     gap: 10px;
+}
+
+.b5 button:hover {
+    background-color: beige;
+}
+
+.b6-donation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.b6-head {
+    color: #0E0E0E;
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.b6-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.amount_btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.amount-btn button {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #fff;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 33px;
+    font-weight: 700;
+    margin: 10px 0 32px 0;
+}
+
+button[class="select"] {
+    background-color: #c6e4d6;
+}
+
+.amount-btn:hover>button {
+    background-color: white;
+}
+
+.amount-btn button:hover {
+    background: #c6e4d6;
+    transition: 0.10s;
+}
+
+.amount-input input {
+    width: 830px;
+    padding: 20px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 38px;
+}
+
+.amount-input input::placeholder {
+    text-align: center;
 }
