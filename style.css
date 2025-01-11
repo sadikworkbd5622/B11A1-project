@@ -28,6 +28,22 @@ body {
     line-height: normal;
 }
 
+nav button {
+    padding: 15px 30px;
+    font-family: "Fira Sans";
+    color: #006a50;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #006a50;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+nav button:hover {
+    background: #006a50;
+    color: #fff;
+}
+
 .btn {
     display: flex;
     padding: 15px 30px;
