@@ -506,3 +506,96 @@ button[class="select"] {
 .amount-input input::placeholder {
     text-align: center;
 }
+
+.b7-sub {
+    display: flex;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 24px;
+    background: #C6E4D6;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.b7-sub h1 {
+    color: #0E0E0E;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.b7-sub p {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.b7-sub .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.b7-sub .input input {
+    padding: 18px 40px;
+    width: 500px;
+    border-radius: 8px 0 0 8px;
+    background: #fff;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.b7-sub .input button {
+    padding: 17px 40px;
+    border-radius: 0 8px 8px 0;
+    background: #006a50;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.b7-sub .input button:hover {
+    background: #ccc;
+    color: #006A50;
+    border: none;
+}
+
+footer {
+    padding: 50px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+footer h3 {
+    color: #0e0e0e;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+
+footer hr {
+    width: 1122px;
+    background: rgba(14, 14, 14, 0.1);
+    margin: 32px 0;
+}
