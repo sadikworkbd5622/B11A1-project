@@ -397,10 +397,6 @@ button:hover {
     background: #FFF;
 }
 
-.news img {
-    border-radius: 18px;
-}
-
 .details {
     height: 290px;
     display: flex;
