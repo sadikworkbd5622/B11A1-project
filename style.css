@@ -416,6 +416,8 @@ button:hover {
     margin: 10px 0;
     display: flex;
     gap: 10px;
+    color: rgba(14, 14, 14, 0.70);
+    ;
 }
 
 .b5 button:hover {
